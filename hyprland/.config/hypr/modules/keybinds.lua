@@ -55,8 +55,8 @@ hl.bind(mainMod .. " + SHIFT + P",     hl.dsp.window.move({ workspace = 5}))
 
 
 -- Move active workspace to monitor
-hl.bind(mainMod .. " + SHIFT + left", hl.dsp.workspace.move({ monitor = monitor_left }))
-hl.bind(mainMod .. " + SHIFT + right", hl.dsp.workspace.move({ monitor = monitor_right }))
+--hl.bind(mainMod .. " + SHIFT + left", hl.dsp.workspace.move({ monitor = monitor_left }))
+--hl.bind(mainMod .. " + SHIFT + right", hl.dsp.workspace.move({ monitor = monitor_right }))
 
 -- Example special workspace (scratchpad)
 hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special("magic"))

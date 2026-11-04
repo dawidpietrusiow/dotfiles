@@ -119,9 +119,17 @@ window#waybar.chromium {
     margin-right: 0;
 }
 
+#network {
+	background-color: @base;
+	color: @teal;
+}
 #custom-power {
 	background-color: @base;
 	color: @red;
+}
+#battery {
+	background-color: @base;
+	color: @green;
 }
 
 #clock {

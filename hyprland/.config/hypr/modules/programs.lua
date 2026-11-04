@@ -6,7 +6,7 @@
 terminal    = "kitty"
 fileManager = "dolphin"
 menu        = "rofi -show drun"
-browser	  = "firefox"
+browser	  = "zen-browser"
 
 
 -------------------
