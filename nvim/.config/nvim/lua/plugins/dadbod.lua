@@ -30,7 +30,7 @@ return {
 
 			vim.keymap.set('n', '<leader>db', ':%DB<CR>', { desc = 'Run entire SQL file on active database' })
 			vim.keymap.set('v', '<leader>db', ':DB<CR>', { desc = 'Run selected SQL lines on active database' })
-			vim.keymap.set('n', '<leader>dr', ':!psql -d TDA357 -f runsetup.sql<CR>', { desc = 'Run runsetup.sql' })
+			vim.keymap.set('n', '<leader>dr', ':!psql -d TDA357 -f src/runsetup.sql<CR>', { desc = 'Run runsetup.sql' })
 		end,
 	},
 }
